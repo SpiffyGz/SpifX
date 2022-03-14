@@ -1,0 +1,584 @@
+-- Release Date 3/14/2022 -SpiffyGz
+
+local ScreenGui = Instance.new("ScreenGui")
+local MainFrame = Instance.new("Frame")
+local ScriptHub = Instance.new("Frame")
+local HoodModded = Instance.new("TextButton")
+local PhantomForces = Instance.new("TextButton")
+local CounterBlox = Instance.new("TextButton")
+local TextLabel = Instance.new("TextLabel")
+local SpifX = Instance.new("Frame")
+local SpifXLock = Instance.new("TextButton")
+local UnlockLock = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local CreditsFrame = Instance.new("TextButton")
+local CreditsFrame_2 = Instance.new("Frame")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+local HoodModdedFrame = Instance.new("Frame")
+local chariotsware = Instance.new("TextButton")
+local softvortex = Instance.new("TextButton")
+local GA = Instance.new("TextButton")
+local SelfFrame = Instance.new("Frame")
+local ImageLabel = Instance.new("ImageLabel")
+local TextLabel_5 = Instance.new("TextLabel")
+local TextLabel_6 = Instance.new("TextLabel")
+local PhantomForcesFrame = Instance.new("Frame")
+local Nexuscc = Instance.new("TextButton")
+local Ehub = Instance.new("TextButton")
+local Evo = Instance.new("TextButton")
+local CounterBloxFrame = Instance.new("Frame")
+local Hexagon = Instance.new("TextButton")
+local TextLabel_7 = Instance.new("TextLabel")
+local Frame = Instance.new("Frame")
+local LOAD = Instance.new("TextButton")
+local LOADING = Instance.new("TextButton")
+local LOADED = Instance.new("TextButton")
+local TextLabel_8 = Instance.new("TextLabel")
+local UICorner = Instance.new("UICorner")
+
+
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ScreenGui.ResetOnSpawn = false
+
+MainFrame.Name = "MainFrame"
+MainFrame.Parent = ScreenGui
+MainFrame.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+MainFrame.BorderSizePixel = 0
+MainFrame.Position = UDim2.new(0.305999994, 0, 0.143999994, 0)
+MainFrame.Size = UDim2.new(0, 506, 0, 551)
+MainFrame.Visible = false
+MainFrame.Active = true
+MainFrame.Draggable = true
+
+ScriptHub.Name = "ScriptHub"
+ScriptHub.Parent = MainFrame
+ScriptHub.BackgroundColor3 = Color3.fromRGB(135, 135, 135)
+ScriptHub.BorderSizePixel = 0
+ScriptHub.Position = UDim2.new(0.0296442695, 0, 0.0272232313, 0)
+ScriptHub.Size = UDim2.new(0, 270, 0, 270)
+
+HoodModded.Name = "HoodModded"
+HoodModded.Parent = ScriptHub
+HoodModded.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+HoodModded.BorderColor3 = Color3.fromRGB(255, 255, 255)
+HoodModded.Position = UDim2.new(0.129629627, 0, 0.0370370373, 0)
+HoodModded.Size = UDim2.new(0, 199, 0, 50)
+HoodModded.Font = Enum.Font.SourceSansSemibold
+HoodModded.Text = "HoodModded"
+HoodModded.TextColor3 = Color3.fromRGB(255, 255, 255)
+HoodModded.TextSize = 25.000
+
+PhantomForces.Name = "PhantomForces"
+PhantomForces.Parent = ScriptHub
+PhantomForces.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+PhantomForces.BorderColor3 = Color3.fromRGB(255, 255, 255)
+PhantomForces.Position = UDim2.new(0.129629627, 0, 0.555555582, 0)
+PhantomForces.Size = UDim2.new(0, 199, 0, 50)
+PhantomForces.Font = Enum.Font.SourceSansSemibold
+PhantomForces.Text = "PhantomForces"
+PhantomForces.TextColor3 = Color3.fromRGB(255, 255, 255)
+PhantomForces.TextSize = 25.000
+
+CounterBlox.Name = "CounterBlox"
+CounterBlox.Parent = ScriptHub
+CounterBlox.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+CounterBlox.BorderColor3 = Color3.fromRGB(255, 255, 255)
+CounterBlox.Position = UDim2.new(0.129629627, 0, 0.296296328, 0)
+CounterBlox.Size = UDim2.new(0, 199, 0, 50)
+CounterBlox.Font = Enum.Font.SourceSansSemibold
+CounterBlox.Text = "CounterBlox"
+CounterBlox.TextColor3 = Color3.fromRGB(255, 255, 255)
+CounterBlox.TextSize = 25.000
+
+TextLabel.Parent = ScriptHub
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.129629627, 0, 0.91481483, 0)
+TextLabel.Size = UDim2.new(0, 200, 0, 23)
+TextLabel.Font = Enum.Font.SourceSansSemibold
+TextLabel.Text = "Script Hub"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+SpifX.Name = "SpifX"
+SpifX.Parent = MainFrame
+SpifX.BackgroundColor3 = Color3.fromRGB(135, 135, 135)
+SpifX.BorderSizePixel = 0
+SpifX.Position = UDim2.new(0.0296442695, 0, 0.54627949, 0)
+SpifX.Size = UDim2.new(0, 270, 0, 235)
+
+SpifXLock.Name = "SpifXLock"
+SpifXLock.Parent = SpifX
+SpifXLock.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+SpifXLock.BorderColor3 = Color3.fromRGB(255, 255, 255)
+SpifXLock.Position = UDim2.new(0.129629627, 0, 0.067060709, 0)
+SpifXLock.Size = UDim2.new(0, 199, 0, 50)
+SpifXLock.Font = Enum.Font.SourceSansSemibold
+SpifXLock.Text = "SpifX Lock"
+SpifXLock.TextColor3 = Color3.fromRGB(255, 255, 255)
+SpifXLock.TextSize = 25.000
+
+UnlockLock.Name = "UnlockLock"
+UnlockLock.Parent = SpifX
+UnlockLock.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UnlockLock.BackgroundTransparency = 1.000
+UnlockLock.Position = UDim2.new(0.129629627, 0, 0.319148928, 0)
+UnlockLock.Size = UDim2.new(0, 200, 0, 28)
+UnlockLock.Visible = false
+UnlockLock.Font = Enum.Font.SourceSansSemibold
+UnlockLock.Text = "To be able to use this please contact spiffyL#0173"
+UnlockLock.TextColor3 = Color3.fromRGB(255, 255, 255)
+UnlockLock.TextScaled = true
+UnlockLock.TextSize = 14.000
+UnlockLock.TextWrapped = true
+
+TextLabel_2.Parent = SpifX
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0.125925928, 0, 0.902048886, 0)
+TextLabel_2.Size = UDim2.new(0, 200, 0, 23)
+TextLabel_2.Font = Enum.Font.SourceSansSemibold
+TextLabel_2.Text = "SpifX premium"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+CreditsFrame.Name = "CreditsFrame"
+CreditsFrame.Parent = SpifX
+CreditsFrame.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+CreditsFrame.BorderColor3 = Color3.fromRGB(255, 255, 255)
+CreditsFrame.Position = UDim2.new(0.133333325, 0, 0.530890465, 0)
+CreditsFrame.Size = UDim2.new(0, 199, 0, 50)
+CreditsFrame.Font = Enum.Font.SourceSansSemibold
+CreditsFrame.Text = "Credits"
+CreditsFrame.TextColor3 = Color3.fromRGB(255, 255, 255)
+CreditsFrame.TextSize = 25.000
+
+CreditsFrame_2.Name = "CreditsFrame"
+CreditsFrame_2.Parent = MainFrame
+CreditsFrame_2.BackgroundColor3 = Color3.fromRGB(135, 135, 135)
+CreditsFrame_2.BorderSizePixel = 0
+CreditsFrame_2.Position = UDim2.new(0.0296442695, 0, 0.54627949, 0)
+CreditsFrame_2.Size = UDim2.new(0, 270, 0, 235)
+CreditsFrame_2.Visible = false
+
+TextLabel_3.Parent = CreditsFrame_2
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(0.125925928, 0, 0.0670607537, 0)
+TextLabel_3.Size = UDim2.new(0, 200, 0, 28)
+TextLabel_3.Font = Enum.Font.SourceSansSemibold
+TextLabel_3.Text = "Made By spiffyL#0173"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
+TextLabel_4.Parent = CreditsFrame_2
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Position = UDim2.new(0.129629627, 0, 0.301103294, 0)
+TextLabel_4.Size = UDim2.new(0, 200, 0, 28)
+TextLabel_4.Font = Enum.Font.SourceSansSemibold
+TextLabel_4.Text = "Toggle Key  = RightAlt"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextWrapped = true
+
+TextButton.Parent = CreditsFrame_2
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BackgroundTransparency = 1.000
+TextButton.Position = UDim2.new(0.125925928, 0, 0.659574449, 0)
+TextButton.Size = UDim2.new(0, 200, 0, 50)
+TextButton.Font = Enum.Font.SourceSansSemibold
+TextButton.Text = "CLOSE"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
+
+HoodModdedFrame.Name = "HoodModdedFrame"
+HoodModdedFrame.Parent = MainFrame
+HoodModdedFrame.BackgroundColor3 = Color3.fromRGB(135, 135, 135)
+HoodModdedFrame.BorderSizePixel = 0
+HoodModdedFrame.Position = UDim2.new(0.594861686, 0, 0.0272232313, 0)
+HoodModdedFrame.Size = UDim2.new(0, 190, 0, 270)
+HoodModdedFrame.Visible = false
+
+chariotsware.Name = "chariotsware"
+chariotsware.Parent = HoodModdedFrame
+chariotsware.BackgroundColor3 = Color3.fromRGB(135, 135, 135)
+chariotsware.BorderColor3 = Color3.fromRGB(0, 0, 0)
+chariotsware.Position = UDim2.new(0.0526315793, 0, 0.0370370373, 0)
+chariotsware.Size = UDim2.new(0, 170, 0, 50)
+chariotsware.Font = Enum.Font.SourceSansSemibold
+chariotsware.Text = "chariotsware"
+chariotsware.TextColor3 = Color3.fromRGB(255, 255, 255)
+chariotsware.TextSize = 20.000
+
+softvortex.Name = "softvortex"
+softvortex.Parent = HoodModdedFrame
+softvortex.BackgroundColor3 = Color3.fromRGB(135, 135, 135)
+softvortex.BorderColor3 = Color3.fromRGB(0, 0, 0)
+softvortex.Position = UDim2.new(0.0473684222, 0, 0.296296299, 0)
+softvortex.Size = UDim2.new(0, 170, 0, 50)
+softvortex.Font = Enum.Font.SourceSansSemibold
+softvortex.Text = "softvortex"
+softvortex.TextColor3 = Color3.fromRGB(255, 255, 255)
+softvortex.TextSize = 20.000
+
+GA.Name = "GA$"
+GA.Parent = HoodModdedFrame
+GA.BackgroundColor3 = Color3.fromRGB(135, 135, 135)
+GA.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GA.Position = UDim2.new(0.0526315793, 0, 0.555555582, 0)
+GA.Size = UDim2.new(0, 170, 0, 50)
+GA.Font = Enum.Font.SourceSansSemibold
+GA.Text = "GA$"
+GA.TextColor3 = Color3.fromRGB(255, 255, 255)
+GA.TextSize = 20.000
+
+SelfFrame.Name = "SelfFrame"
+SelfFrame.Parent = MainFrame
+SelfFrame.BackgroundColor3 = Color3.fromRGB(135, 135, 135)
+SelfFrame.BorderSizePixel = 0
+SelfFrame.Position = UDim2.new(0.594861686, 0, 0.54627949, 0)
+SelfFrame.Size = UDim2.new(0, 190, 0, 234)
+
+ImageLabel.Parent = SelfFrame
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.Position = UDim2.new(0.231578946, 0, 0.0641025677, 0)
+ImageLabel.Size = UDim2.new(0, 100, 0, 100)
+ImageLabel.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+
+TextLabel_5.Parent = SelfFrame
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.Position = UDim2.new(0.231578946, 0, 0.491453022, 0)
+TextLabel_5.Size = UDim2.new(0, 100, 0, 50)
+TextLabel_5.Font = Enum.Font.SourceSansSemibold
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextSize = 18.000
+
+TextLabel_6.Parent = SelfFrame
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.Position = UDim2.new(0, 0, 0.897793472, 0)
+TextLabel_6.Size = UDim2.new(0, 189, 0, 23)
+TextLabel_6.Font = Enum.Font.SourceSansSemibold
+TextLabel_6.Text = "v 1.0.3"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.TextScaled = true
+TextLabel_6.TextSize = 14.000
+TextLabel_6.TextWrapped = true
+
+PhantomForcesFrame.Name = "PhantomForcesFrame"
+PhantomForcesFrame.Parent = MainFrame
+PhantomForcesFrame.BackgroundColor3 = Color3.fromRGB(135, 135, 135)
+PhantomForcesFrame.BorderSizePixel = 0
+PhantomForcesFrame.Position = UDim2.new(0.594861686, 0, 0.0272232313, 0)
+PhantomForcesFrame.Size = UDim2.new(0, 190, 0, 270)
+PhantomForcesFrame.Visible = false
+
+Nexuscc.Name = "Nexus.cc"
+Nexuscc.Parent = PhantomForcesFrame
+Nexuscc.BackgroundColor3 = Color3.fromRGB(135, 135, 135)
+Nexuscc.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Nexuscc.Position = UDim2.new(0.0526315793, 0, 0.0370370373, 0)
+Nexuscc.Size = UDim2.new(0, 170, 0, 50)
+Nexuscc.Font = Enum.Font.SourceSansSemibold
+Nexuscc.Text = "Nexuc.cc"
+Nexuscc.TextColor3 = Color3.fromRGB(255, 255, 255)
+Nexuscc.TextSize = 20.000
+
+Ehub.Name = "Ehub"
+Ehub.Parent = PhantomForcesFrame
+Ehub.BackgroundColor3 = Color3.fromRGB(135, 135, 135)
+Ehub.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Ehub.Position = UDim2.new(0.0473684222, 0, 0.296296299, 0)
+Ehub.Size = UDim2.new(0, 170, 0, 50)
+Ehub.Font = Enum.Font.SourceSansSemibold
+Ehub.Text = "Ehub"
+Ehub.TextColor3 = Color3.fromRGB(255, 255, 255)
+Ehub.TextSize = 20.000
+
+Evo.Name = "Evo"
+Evo.Parent = PhantomForcesFrame
+Evo.BackgroundColor3 = Color3.fromRGB(135, 135, 135)
+Evo.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Evo.Position = UDim2.new(0.0526315793, 0, 0.555555582, 0)
+Evo.Size = UDim2.new(0, 170, 0, 50)
+Evo.Font = Enum.Font.SourceSansSemibold
+Evo.Text = "Evo"
+Evo.TextColor3 = Color3.fromRGB(255, 255, 255)
+Evo.TextSize = 20.000
+
+CounterBloxFrame.Name = "CounterBloxFrame"
+CounterBloxFrame.Parent = MainFrame
+CounterBloxFrame.BackgroundColor3 = Color3.fromRGB(135, 135, 135)
+CounterBloxFrame.BorderSizePixel = 0
+CounterBloxFrame.Position = UDim2.new(0.594861686, 0, 0.0272232313, 0)
+CounterBloxFrame.Size = UDim2.new(0, 190, 0, 270)
+CounterBloxFrame.Visible = false
+
+Hexagon.Name = "Hexagon"
+Hexagon.Parent = CounterBloxFrame
+Hexagon.BackgroundColor3 = Color3.fromRGB(135, 135, 135)
+Hexagon.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Hexagon.Position = UDim2.new(0.0526315793, 0, 0.0370370373, 0)
+Hexagon.Size = UDim2.new(0, 170, 0, 50)
+Hexagon.Font = Enum.Font.SourceSansSemibold
+Hexagon.Text = "Hexagon"
+Hexagon.TextColor3 = Color3.fromRGB(255, 255, 255)
+Hexagon.TextSize = 20.000
+
+TextLabel_7.Parent = CounterBloxFrame
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.Position = UDim2.new(-0.000389982539, 0, 0.248148143, 0)
+TextLabel_7.Size = UDim2.new(0, 190, 0, 203)
+TextLabel_7.Font = Enum.Font.SourceSansSemibold
+TextLabel_7.Text = "Coming Soon!!"
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.TextScaled = true
+TextLabel_7.TextSize = 14.000
+TextLabel_7.TextWrapped = true
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.457575738, 0, 0.534502923, 0)
+Frame.Size = UDim2.new(0, 140, 0, 130)
+Frame.Active = true
+Frame.Draggable = true
+
+LOAD.Name = "LOAD"
+LOAD.Parent = Frame
+LOAD.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+LOAD.BackgroundTransparency = 1.000
+LOAD.Position = UDim2.new(0, 0, 0.615384638, 0)
+LOAD.Size = UDim2.new(0, 140, 0, 50)
+LOAD.Font = Enum.Font.SourceSansSemibold
+LOAD.Text = "LOAD"
+LOAD.TextColor3 = Color3.fromRGB(255, 255, 255)
+LOAD.TextSize = 30.000
+
+LOADING.Name = "LOADING"
+LOADING.Parent = Frame
+LOADING.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+LOADING.BackgroundTransparency = 1.000
+LOADING.Position = UDim2.new(0, 0, 0.615384638, 0)
+LOADING.Size = UDim2.new(0, 140, 0, 50)
+LOADING.Visible = false
+LOADING.Font = Enum.Font.SourceSansSemibold
+LOADING.Text = "LOADING..."
+LOADING.TextColor3 = Color3.fromRGB(255, 255, 255)
+LOADING.TextSize = 30.000
+
+LOADED.Name = "LOADED"
+LOADED.Parent = Frame
+LOADED.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+LOADED.BackgroundTransparency = 1.000
+LOADED.Position = UDim2.new(0, 0, 0.615384638, 0)
+LOADED.Size = UDim2.new(0, 140, 0, 50)
+LOADED.Visible = false
+LOADED.Font = Enum.Font.SourceSansSemibold
+LOADED.Text = "LOADED!"
+LOADED.TextColor3 = Color3.fromRGB(255, 255, 255)
+LOADED.TextSize = 30.000
+
+TextLabel_8.Parent = Frame
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.BackgroundTransparency = 1.000
+TextLabel_8.Size = UDim2.new(0, 140, 0, 22)
+TextLabel_8.Font = Enum.Font.SourceSansSemibold
+TextLabel_8.Text = "Project SpifX"
+TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.TextSize = 24.000
+
+UICorner.Parent = Frame
+
+-- Scripts (all done by ya boy Spiffy):
+
+local function DETCC_fake_script() -- HoodModded.LocalScript 
+	local script = Instance.new('LocalScript', HoodModded)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.HoodModdedFrame.Visible = true
+		script.Parent.Parent.Parent.PhantomForcesFrame.Visible = false
+		script.Parent.Parent.Parent.CounterBloxFrame.Visible = false
+	end)
+end
+coroutine.wrap(DETCC_fake_script)()
+local function DVSE_fake_script() -- PhantomForces.LocalScript 
+	local script = Instance.new('LocalScript', PhantomForces)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.HoodModdedFrame.Visible = false
+		script.Parent.Parent.Parent.PhantomForcesFrame.Visible = true
+		script.Parent.Parent.Parent.CounterBloxFrame.Visible = false
+	end)
+end
+coroutine.wrap(DVSE_fake_script)()
+local function JYTCZ_fake_script() -- CounterBlox.LocalScript 
+	local script = Instance.new('LocalScript', CounterBlox)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.HoodModdedFrame.Visible = false
+		script.Parent.Parent.Parent.PhantomForcesFrame.Visible = false
+		script.Parent.Parent.Parent.CounterBloxFrame.Visible = true
+	end)
+end
+coroutine.wrap(JYTCZ_fake_script)()
+local function YVZVIEE_fake_script() -- SpifXLock.LocalScript 
+	local script = Instance.new('LocalScript', SpifXLock)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.UnlockLock.Visible = true
+		wait(5)
+		script.Parent.Parent.UnlockLock.Visible = false
+	end)
+end
+coroutine.wrap(YVZVIEE_fake_script)()
+local function WCEHM_fake_script() -- CreditsFrame.LocalScript 
+	local script = Instance.new('LocalScript', CreditsFrame)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.SpifX.Visible = false
+		script.Parent.Parent.Parent.CreditsFrame.Visible = true
+	end)
+end
+coroutine.wrap(WCEHM_fake_script)()
+local function SGLN_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.SpifX.Visible = true
+		script.Parent.Parent.Parent.CreditsFrame.Visible = false
+	end)
+end
+coroutine.wrap(SGLN_fake_script)()
+local function HVDNQL_fake_script() -- chariotsware.LocalScript 
+	local script = Instance.new('LocalScript', chariotsware)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Rippeed/DaHoodinary/main/chariotsware"))()
+	end)
+end
+coroutine.wrap(HVDNQL_fake_script)()
+local function PAIORJC_fake_script() -- softvortex.LocalScript 
+	local script = Instance.new('LocalScript', softvortex)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(("https://raw.githubusercontent.com/SoftVortex/MACHINE/main/MACHINE"),true))()
+	end)
+end
+coroutine.wrap(PAIORJC_fake_script)()
+local function ZQUVSJV_fake_script() -- GA.LocalScript 
+	local script = Instance.new('LocalScript', GA)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/angeloX041/GASV1.5/main/GA%24V1.5"))()
+	end)
+end
+coroutine.wrap(ZQUVSJV_fake_script)()
+local function IAHKTLX_fake_script() -- ImageLabel.LocalScript 
+	local script = Instance.new('LocalScript', ImageLabel)
+
+	local image = script.Parent
+	image.Image = game.Players:GetUserThumbnailAsync(game.Players.LocalPlayer.UserId,Enum.ThumbnailType.HeadShot, Enum.ThumbnailSize.Size420x420)
+	
+end
+coroutine.wrap(IAHKTLX_fake_script)()
+local function JIPH_fake_script() -- TextLabel_5.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel_5)
+
+	script.Parent.Text = game.Players.LocalPlayer.Name
+end
+coroutine.wrap(JIPH_fake_script)()
+local function REOIS_fake_script() -- Nexuscc.LocalScript 
+	local script = Instance.new('LocalScript', Nexuscc)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/LittleDyingDuck/Nexus.cc-Crack/main/crack.lua"))();
+	end)
+end
+coroutine.wrap(REOIS_fake_script)()
+local function FBCBTY_fake_script() -- Ehub.LocalScript 
+	local script = Instance.new('LocalScript', Ehub)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://ehub.fun/raw/script.lua"))()
+	end)
+end
+coroutine.wrap(FBCBTY_fake_script)()
+local function AFNZYZ_fake_script() -- Evo.LocalScript 
+	local script = Instance.new('LocalScript', Evo)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://projectevo.xyz/script/loader.lua"))()
+	end)
+end
+coroutine.wrap(AFNZYZ_fake_script)()
+local function WWZABTA_fake_script() -- Hexagon.LocalScript 
+	local script = Instance.new('LocalScript', Hexagon)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Pawel12d/hexagon/main/scripts/CounterBlox.lua', true))()
+	end)
+end
+coroutine.wrap(WWZABTA_fake_script)()
+local function NECW_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	local MainFrame = script.Parent.MainFrame
+	local Open = false
+	
+	local PositionClosed = UDim2.new(0.346, 0,0.999, 0)
+	local PositionOpen = UDim2.new(0.306, 0,0.144, 0)
+	
+	local UserInputService = game:GetService("UserInputService")
+	
+	UserInputService.InputBegan:Connect(function(KeyCode)
+		if KeyCode.KeyCode == Enum.KeyCode.RightAlt then
+			if Open then
+				MainFrame:TweenPosition((PositionClosed), "Out", "Sine")
+				Open = false
+			else
+				Open = true
+				MainFrame:TweenPosition((PositionOpen), "Out", "Sine")
+			end
+		end
+	end)
+end
+coroutine.wrap(NECW_fake_script)()
+local function WSDPXC_fake_script() -- LOAD.LocalScript 
+	local script = Instance.new('LocalScript', LOAD)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.LOAD.Visible = false
+		script.Parent.Parent.LOADING.Visible = true
+		wait(5)
+		script.Parent.Parent.LOADING.Visible = false
+		script.Parent.Parent.LOADED.Visible = true
+		wait(1)
+		script.Parent.Parent.Parent.MainFrame.Visible = true
+		script.Parent.Parent.Parent.Frame.Visible = false
+		game:GetService("StarterGui"):SetCore("SendNotification", {
+			Title = "Welcome";
+			Text = "Project SpifX Loaded";
+			Button1 = "Close";
+			Duration = 999;
+		})
+	end)
+end
+coroutine.wrap(WSDPXC_fake_script)()
